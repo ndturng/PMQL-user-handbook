@@ -6,6 +6,7 @@ theme:
   language: vi
   features:
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - search.highlight
 plugins:
@@ -29,9 +30,9 @@ nav:
     - Gửi email học viên: EmailSms/GuiEmailHocVien.md
     - Lưu ý vận hành: EmailSms/LuuYVanHanh.md
 
-  - Sự kiện:
+  - Event:
     - Tổng quan: Event/Overview.md
-    - Quản lý sự kiện: Event/QuanLySuKien.md
+    - Quản lý Event: Event/QuanLySuKien.md
     - Đăng ký người tham gia: Event/DangKyNguoiThamGia.md
     - Hình ảnh hiển thị: Event/HinhAnhHienThi.md
     - Thu hoàn phí: Event/ThuHoanPhi.md
