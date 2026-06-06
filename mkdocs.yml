@@ -1,0 +1,119 @@
+site_name: Handbook Nội Bộ
+docs_dir: docs/user-handbook/modules
+theme:
+  name: material
+  language: vi
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+plugins:
+  - search
+
+# Ảnh nằm ở assets/, cần khai báo để MkDocs copy sang
+extra_css: []
+
+nav:
+  - Tổng quan: README.md
+
+  - Cơ sở:
+    - Tổng quan: CoSo/Overview.md
+    - Danh sách cơ sở: CoSo/DanhSachCoSo.md
+    - Danh sách cơ sở kế toán: CoSo/DanhSachCoSoKeToan.md
+    - Lưu ý vận hành: CoSo/LuuYVanHanh.md
+
+  - DISC:
+    - Tổng quan: DISC/Overview.md
+    - Làm bài test DISC: DISC/LamBaiTestDISC.md
+    - Lưu ý vận hành: DISC/LuuYVanHanh.md
+
+  - Email & SMS:
+    - Tổng quan: EmailSms/Overview.md
+    - Danh mục nội dung: EmailSms/DanhMucNoiDung.md
+    - Gửi email học viên: EmailSms/GuiEmailHocVien.md
+    - Lưu ý vận hành: EmailSms/LuuYVanHanh.md
+
+  - Sự kiện:
+    - Tổng quan: Event/Overview.md
+    - Quản lý sự kiện: Event/QuanLySuKien.md
+    - Đăng ký người tham gia: Event/DangKyNguoiThamGia.md
+    - Hình ảnh hiển thị: Event/HinhAnhHienThi.md
+    - Thu hoàn phí: Event/ThuHoanPhi.md
+    - Lưu ý vận hành: Event/LuuYVanHanh.md
+
+  - Học viên:
+    - Tổng quan: Hocvien/Overview.md
+    - Danh sách học viên: Hocvien/DanhSachHocVien.md
+    - Hồ sơ học viên: Hocvien/HoSoHocVien.md
+    - Đăng ký khóa học: Hocvien/DangKyKhoaHoc.md
+    - Bảo lưu trạng thái: Hocvien/BaoLuuTrangThai.md
+    - Thống kê lịch sử: Hocvien/ThongKeLichSu.md
+    - Lưu ý vận hành: Hocvien/LuuYVanHanh.md
+
+  - Kế toán:
+    - Tổng quan: Ketoan/Overview.md
+    - Nhật ký thu chi: Ketoan/NhatKyThuChi.md
+    - Phiếu thu chi: Ketoan/PhieuThuChi.md
+    - Báo cáo thống kê: Ketoan/BaoCaoThongKe.md
+    - Lưu ý vận hành: Ketoan/LuuYVanHanh.md
+
+  - Kho:
+    - Tổng quan: Kho/Overview.md
+    - Vật tư tồn kho: Kho/VatTuTonKho.md
+    - Đơn hàng: Kho/DonHang.md
+    - Thẻ kho thống kê: Kho/TheKhoThongKe.md
+    - Lưu ý vận hành: Kho/LuuYVanHanh.md
+
+  - Khóa đào tạo:
+    - Tổng quan: Khoadaotao/Overview.md
+    - Quản lý khóa đào tạo: Khoadaotao/QuanLyKhoaDaoTao.md
+    - Đăng ký giáo viên: Khoadaotao/DangKyGiaoVien.md
+    - Thanh toán phí: Khoadaotao/ThanhToanPhi.md
+    - Đánh giá kết thúc: Khoadaotao/DanhGiaKetThuc.md
+    - Lưu ý vận hành: Khoadaotao/LuuYVanHanh.md
+
+  - Khóa học:
+    - Tổng quan: Khoahoc/Overview.md
+    - Quản lý chương trình khóa học: Khoahoc/QuanLyChuongTrinhKhoaHoc.md
+    - Phân bổ theo cơ sở: Khoahoc/PhanBoTheoCoSo.md
+    - Vật tư tài liệu: Khoahoc/VatTuTaiLieu.md
+    - Thống kê đăng ký: Khoahoc/ThongKeDangKy.md
+    - Lưu ý vận hành: Khoahoc/LuuYVanHanh.md
+
+  - Lớp học:
+    - Tổng quan: Lophoc/Overview.md
+    - Quản lý lớp học: Lophoc/QuanLyLopHoc.md
+    - Phòng học & thời khóa biểu: Lophoc/PhongHocThoiKhoaBieu.md
+    - Điểm danh kết quả ngày: Lophoc/DiemDanhKetQuaNgay.md
+    - Kết quả cuối khóa: Lophoc/KetQuaCuoiKhoa.md
+    - Thống kê lớp học: Lophoc/ThongKeLopHoc.md
+    - Lưu ý vận hành: Lophoc/LuuYVanHanh.md
+
+  - Nhân sự:
+    - Tổng quan: Nhansu/Overview.md
+    - Danh sách nhân sự: Nhansu/DanhSachNhanSu.md
+    - Luyện tập online: Nhansu/LuyenTapOnline.md
+    - Lưu ý vận hành: Nhansu/LuuYVanHanh.md
+
+  - Cài đặt:
+    - Tổng quan: Setting/Overview.md
+    - Khuyến mãi: Setting/KhuyenMai.md
+    - Ngày nghỉ: Setting/NgayNghi.md
+    - Lưu ý vận hành: Setting/LuuYVanHanh.md
+
+  - Tài liệu:
+    - Tổng quan: Tailieu/Overview.md
+    - Quản lý thư mục: Tailieu/QuanLyThuMuc.md
+    - File liên kết: Tailieu/FileLienKet.md
+    - Lưu ý vận hành: Tailieu/LuuYVanHanh.md
+
+  - Thông báo:
+    - Tổng quan: Thongbao/Overview.md
+    - Quản lý thông báo: Thongbao/QuanLyThongBao.md
+    - Lưu ý vận hành: Thongbao/LuuYVanHanh.md
+
+  - Người dùng:
+    - Tổng quan: Users/Overview.md
+    - Tài khoản đăng nhập: Users/TaiKhoanDangNhap.md
+    - Phân quyền tài khoản: Users/PhanQuyenTaiKhoan.md
+    - Lưu ý vận hành: Users/LuuYVanHanh.md
