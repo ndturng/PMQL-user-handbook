@@ -13,6 +13,7 @@ plugins:
   - search
 
 nav:
+  - Trang chủ: index.md 
   - Cơ sở:
     - Tổng quan: CoSo/Overview.md
     - Danh sách cơ sở: CoSo/DanhSachCoSo.md
